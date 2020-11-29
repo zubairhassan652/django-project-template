@@ -1,12 +1,9 @@
+# Standard Django Template For Resueability
 
-Deleting all .pyc files
+This template includes following things:
 
-find . -path "*/*.pyc"  -delete
-
-Deleting all .pyo files:
-
-find . -path "*/*.pyo"  -delete
-
-Finally, to delete all '__pycache__', type:
-
-find . -path "*/__pycache__" -type d -exec rm -r {} ';'
+* django debug toolbar
+* django webshell
+* django sql explorer
+* django multiple settings architecture
+* django test email setup
